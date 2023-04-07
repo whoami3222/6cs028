@@ -9,7 +9,7 @@ if(Session::has('user')){
 
 ?>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Cart({{$total}})</a>
+  <a class="nav-link" href="./cartlist" tabindex="-1" aria-disabled="true">Cart({{$total}})</a>
   @if(Session::has('user'))
   <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

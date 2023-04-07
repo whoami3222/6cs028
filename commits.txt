@@ -1,0 +1,53 @@
+commit 2c00ee86974a63b0194d33f955c265585e86201d
+Author: David Scesnulevic <2016195@csl-student.wlv.ac.uk>
+Date:   Fri Apr 7 11:20:40 2023 +0100
+
+    logout and login done
+
+commit a61154cf5591c3ad340153f9030bb7c9af6a9aaf
+Author: David Scesnulevic <2016195@csl-student.wlv.ac.uk>
+Date:   Fri Apr 7 09:57:44 2023 +0100
+
+    created cart table
+
+commit b3e0807047a39ea04aa0f006f04457cce0badb9a
+Author: David Scesnulevic <2016195@csl-student.wlv.ac.uk>
+Date:   Fri Apr 7 09:52:20 2023 +0100
+
+    Product details page
+
+commit 6ea3f3a02e1ef502ccd48912ac34cb74898557f2
+Author: David Scesnulevic <2016195@csl-student.wlv.ac.uk>
+Date:   Fri Apr 7 09:31:56 2023 +0100
+
+    Home page finished
+
+commit 7ba4fc11926bdd80437a29487f3cab3258701b74
+Author: David Scesnulevic <2016195@csl-student.wlv.ac.uk>
+Date:   Fri Apr 7 08:24:07 2023 +0100
+
+    product database table createde
+
+commit f11eeb29f796deb23c63f48f37a79d8d950743ba
+Author: David Scesnulevic <2016195@csl-student.wlv.ac.uk>
+Date:   Fri Apr 7 07:42:42 2023 +0100
+
+    login done
+
+commit f2c623f8f887eae80726efd4be7ba9809e1d5c11
+Author: David Scesnulevic <2016195@csl-student.wlv.ac.uk>
+Date:   Fri Apr 7 06:40:39 2023 +0100
+
+    Created login.blade.php
+
+commit 8340d52b2d9863f51bfe7ab2f2b461d82c6d1aee
+Author: David Scesnulevic <2016195@csl-student.wlv.ac.uk>
+Date:   Fri Apr 7 04:48:02 2023 +0100
+
+    added silly comment
+
+commit 0fee1e2cfc371c872bf48952de896b7aa8a6c172
+Author: David Scesnulevic <2016195@csl-student.wlv.ac.uk>
+Date:   Fri Apr 7 04:46:35 2023 +0100
+
+    First commit
