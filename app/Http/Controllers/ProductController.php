@@ -72,7 +72,7 @@ class ProductController extends Controller
     {
         $userId=Session::get('user')['id'];
          $allCart= Cart::where('user_id',$userId)->get();
-         foreach($allCart as $cart)
+         foreach($orders as $cart)
          {
              $order= new Order;
              $order->product_id=$cart['product_id'];
@@ -86,6 +86,16 @@ class ProductController extends Controller
          }
          $req->input();
          return redirect('/');
+    }
+    function myOrders(){
+
+        $userId=Session::get('user')['id'];
+        $orders= DB::table('orders')
+         ->join('products','orders.product_id','=','products.id')
+         ->where('orders.user_id',$userId)
+         ->get();
+ 
+          return view('myorders',['orders'=>$orders]);
     }
 
     
