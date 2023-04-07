@@ -1,5 +1,5 @@
 <?php
-
+// This is just a test
 namespace App\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
