@@ -1,5 +1,28 @@
+<?php
+use App\Http\Controllers\ProductController;
+$total=0;
+if(Session::has('user')){
+    $total= ProductController::cartItem();
+}
+
+
+
+?>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Cart({{$total}})</a>
+  @if(Session::has('user'))
+  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          {{Session::get('user')['name']}}
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="./logout">Logout</a>
+          
+        </div>
+      </li>
+      @else
+      <li><a href="./login">Login</a></li>
+      @endif
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -14,7 +37,7 @@
       </li>
       
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
