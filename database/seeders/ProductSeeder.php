@@ -37,7 +37,7 @@ class ProductSeeder extends Seeder
             ],
             [
 
-                'name'=>'Samsung AU7110 55 Inch Smart TV (2021 Black)',
+                'name'=>'Samsung AU7110 55 Inch Smart TV',
                 'price'=>"449£",
                 "description"=>"Ultra Clear Picture 4K TV With HDR10+, Crystal Processor, Purcolour, Compatible With Alexa, Adaptive Sound, Samsung Q-Symphony Audio - UE55AU7110KXXU",
                 "category"=>"tv",
